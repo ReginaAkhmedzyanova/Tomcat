@@ -6,7 +6,7 @@ ENV CATALINA_HOME /usr/local/tomcat
 ENV JAVA_HOME /usr/lib/jvm/java-11-openjdk-amd64
 ENV PATH $CATALINA_HOME/bin:$PATH
 
-RUN apt install update 
+RUN apt update 
 RUN apt install default-jdk -y
 
 
