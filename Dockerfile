@@ -8,6 +8,7 @@ ENV PATH $CATALINA_HOME/bin:$PATH
 
 RUN apt update 
 RUN apt install default-jdk -y
+RUN apt install wget -y 
 
 
 RUN mkdir $CATALINA_HOME
